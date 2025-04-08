@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TempMailShield</title>
     <script type="module" crossorigin src="/project-TempMailShield/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-TempMailShield/assets/index-Cc8K5VJu.css">
+    <link rel="stylesheet" crossorigin href="/project-TempMailShield/assets/index-Bw_ZL_ip.css">
   </head>
   <body>
     <header>
@@ -25,7 +25,11 @@
 
     <main>
       <section class="messages-container">
-        <!-- Повідомлення будуть додаватися тут -->
+        <div class="empty-state">
+          <span class="loader"></span>
+          <p class="empty-state__text">Немає повідомлень</p>
+          <p class="empty-state__subtext">Очікування нових повідомлень</p>
+        </div>
       </section>
 
       <section class="instructions">
@@ -50,7 +54,7 @@
             <div class="step-content">
               <h3>Перевіряйте повідомлення</h3>
               <p>
-                Всі листи будуть автоматично відображатись у вашому кабінеті
+                Всі листи будуть автоматично відображатись у полі повідомлень
               </p>
             </div>
           </div>
